@@ -1,11 +1,10 @@
-Como Executar:
+## Como Executar:
 
-Salve o arquivo app.js.
 Abra o terminal na pasta do seu projeto.
-Execute o comando: node app.js
+Execute o comando: node index.js
 Sua API Node.js será iniciada, e a cada 5 minutos, a tarefa agendada buscará os dados da API de origem e tentará salvá-los na API de destino. Você poderá ver os logs de execução no seu terminal.
 
-Considerações Importantes:
+### Considerações Importantes:
 
 Método HTTP para Salvar: Certifique-se de que a API de destino espera uma requisição POST (como no exemplo) ou outro método HTTP (PUT, PATCH, etc.) e ajuste a função saveData() conforme necessário.
 Formato dos Dados: Verifique o formato dos dados que a API de origem retorna e o formato que a API de destino espera receber. Pode ser necessário realizar alguma transformação nos dados dentro das funções fetchData() ou saveData() antes de enviá-los.
